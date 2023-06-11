@@ -15,5 +15,7 @@ public class Main {
         System.out.println(db.findEmployee("Jil"));
         System.out.println(db.findEmployee("Jack"));
         System.out.println(db.findEmployee("John"));
+        System.out.println(db.findEmployee("Wick"));
+        
     }
 }
