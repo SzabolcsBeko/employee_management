@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Database db = new Database();
         for(Employee emp: db.getAllEmployees()){
-            System.out.println(emp.toString());
+            //System.out.println(emp.toString());
         }
         System.out.println(db.findEmployee("Mike"));
         System.out.println(db.findEmployee("Barbara"));
