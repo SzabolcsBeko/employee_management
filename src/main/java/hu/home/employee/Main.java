@@ -12,5 +12,6 @@ public class Main {
         }
         System.out.println(db.findEmployee("Mike"));
         System.out.println(db.findEmployee("Barbara"));
+        System.out.println(db.findEmployee("jil"));
     }
 }
