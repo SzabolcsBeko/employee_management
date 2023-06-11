@@ -15,6 +15,7 @@ public class Database {
         employees.add(new Employee(3,"Jil", "Tenessy" , 27));
         employees.add(new Employee(4,"Mike", "Detroit" , 28));
         employees.add(new Employee(5,"Barbara", "Atlantic City" , 29));
+        employees.add(new Employee(6,"Wick","Honolulu",30));
     }
 
     public List<Employee> getAllEmployees(){
